@@ -3,7 +3,8 @@ import glob, os
 import base64
 import cv2
 import numpy as np
-abc
+from TTNT import detect_output
+from detect_output import save_a_img
 
 
 # a = 1,2,3
@@ -208,9 +209,6 @@ def to_file_text(data_dir, input_image, file_text):
                 f.write("%s %.8s %.8s %.8s %.8s " % (
                     label_[j], x_center, y_center, width_box, height_box))
                 f.write("\n")
-
-
-from detect_output import save_a_img
 
 
 def load_img(name, input):
