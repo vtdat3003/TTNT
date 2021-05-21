@@ -1,4 +1,5 @@
 import cv2
+from TTNT import data_utils, detect
 from data_utils import order_points
 from imutils import perspective
 import glob, os
