@@ -1,3 +1,4 @@
+from TTNT import detect_output, plate_opencv
 from tkinter import *
 from PIL import Image, ImageTk
 from tkinter import font
